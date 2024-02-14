@@ -52,7 +52,10 @@ unzip CRUD-COM-PHP-E-MYSQL.zip
 ### EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
 
-   - Crie um banco de dados MySQL chamado `test`.
+   - Crie um banco de dados [MySQL](./CODIGO/database.sql) chamado `test`:
+   ```sql
+   CREATE DATABASE teste;
+   ```
    - Execute o seguinte comando SQL para criar a tabela `users`:
 
    ```sql
