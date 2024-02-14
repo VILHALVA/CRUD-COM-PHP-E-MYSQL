@@ -1,0 +1,48 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #ff6347;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 8px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #ff6347;
+}
+
+a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
