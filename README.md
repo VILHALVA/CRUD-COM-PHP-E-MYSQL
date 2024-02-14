@@ -1,10 +1,10 @@
 # CRUD COM PHP E MYSQL
 👨‍🏫CRUD EM HTML, CSS, PHP E MYSQL.
 
-<img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br> <br>
-<img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br> <br>
-<img src="./IMAGENS/FOTO_3.png" align="center" width="500"> <br> <br>
-<img src="./IMAGENS/FOTO_4.png" align="center" width="500"> <br> <br>
+<img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_3.png" align="center" width="500"> <br> 
+<img src="./IMAGENS/FOTO_4.png" align="center" width="500"> <br> 
 <img src="./IMAGENS/FOTO_5.png" align="center" width="500"> <br> 
 
 ## DESCRIÇÃO:
@@ -70,15 +70,15 @@ unzip CRUD-COM-PHP-E-MYSQL.zip
    - Crie um banco de dados MySQL chamado `test`.
    - Execute o seguinte comando SQL para criar a tabela `users`:
 
-     ```sql
-     CREATE TABLE `users` (
-    `id` int(11) NOT NULL auto_increment,
-    `name` varchar(100) NOT NULL,
-    `age` int(3) NOT NULL,
-    `email` varchar(100) NOT NULL,
-    PRIMARY KEY  (`id`)
-    );
-     ```
+   ```sql
+   CREATE TABLE `users` (
+   `id` int(11) NOT NULL auto_increment,
+   `name` varchar(100) NOT NULL,
+   `age` int(3) NOT NULL,
+   `email` varchar(100) NOT NULL,
+   PRIMARY KEY  (`id`)
+   );
+   ```
 
 2. **Configuração do PHP:**
 
