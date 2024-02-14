@@ -8,7 +8,7 @@
 <img src="./IMAGENS/FOTO_5.png" align="center" width="500"> <br> 
 
 ## DESCRIÇÃO:
-Este aplicativo implementa um sistema básico de gerenciamento de usuários com funcionalidades de criação, leitura, atualização e exclusão (CRUD). Aqui está uma descrição do que ele faz e exibe:
+Este aplicativo implementa um sistema básico de gerenciamento de usuários com funcionalidades de criação, leitura, atualização e exclusão [(CRUD)](CRUD.md). Aqui está uma descrição do que ele faz e exibe:
 
 1. **Home Page:**
    - Exibe uma página inicial com o título "CRUD".
@@ -28,21 +28,6 @@ Este aplicativo implementa um sistema básico de gerenciamento de usuários com 
 
 4. **Mensagens de Feedback:**
    - Fornece feedback ao usuário sobre as ações realizadas, como adição bem-sucedida de um novo usuário ou erros de validação ao adicionar um novo usuário.
-
-## CRUD:
-### C - Create (Criar):
-* O link "NOVO" leva a uma página com um formulário para inserir novos usuários no banco de dados.
-
-### R - Read (Ler):
-* A conexão com o banco de dados é estabelecida usando a biblioteca `mysqli`.
-* A query `"SELECT * FROM users ORDER BY id DESC"` recupera todos os usuários da tabela `users`, ordenando-os por ID decrescente (os mais recentes primeiro).
-* O uso de um loop `while` percorre cada linha do resultado e exibe as informações (nome, agência, email) em uma tabela HTML.
-
-### U - Update (Atualizar):
-* O link "EDITAR" em cada linha da tabela direciona para uma página `edit.php` que permite modificar os dados do usuário correspondente.
-
-### D - Delete (Deletar):
-* O link "APAGAR" em cada linha da tabela, com confirmação do usuário, redireciona para a página `delete.php` que executa uma query para remover o usuário do banco de dados.
 
 ## COMO USAR?
 ### BAIXANDO O PROJETO:
