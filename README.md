@@ -8,7 +8,7 @@
 <img src="./IMAGENS/FOTO_5.png" align="center" width="500"> <br> 
 
 ## DESCRIÇÃO:
-Este aplicativo implementa um sistema básico de gerenciamento de usuários com funcionalidades de criação, leitura, atualização e exclusão [(CRUD)](CRUD.md). Aqui está uma descrição do que ele faz e exibe:
+Este aplicativo implementa um sistema básico de gerenciamento de usuários com funcionalidades de criação, leitura, atualização e exclusão (CRUD). Aqui está uma descrição do que ele faz e exibe:
 
 1. **Home Page:**
    - Exibe uma página inicial com o título "CRUD".
@@ -29,47 +29,11 @@ Este aplicativo implementa um sistema básico de gerenciamento de usuários com 
 4. **Mensagens de Feedback:**
    - Fornece feedback ao usuário sobre as ações realizadas, como adição bem-sucedida de um novo usuário ou erros de validação ao adicionar um novo usuário.
 
-## COMO USAR?
-### BAIXANDO O PROJETO:
-* Clone o repositório para o seu sistema local:
-
-```bash
-git clone https://github.com/VILHALVA/CRUD-COM-PHP-E-MYSQL.git
-```
-
-* Navegue até o diretório do projeto.
-
-```bash
-cd CRUD-COM-PHP-E-MYSQL
-```
-
-* Descompacte o arquivo ZIP (se você baixou manualmente):
-
-```bash
-unzip CRUD-COM-PHP-E-MYSQL.zip
-```
-
-### EXECUTANDO O PROJETO:
+## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-
-   - Crie um banco de dados [MySQL](./CODIGO/database.sql) chamado `test`:
-   ```sql
-   CREATE DATABASE teste;
-   ```
-   - Execute o seguinte comando SQL para criar a tabela `users`:
-
-   ```sql
-   CREATE TABLE `users` (
-   `id` int(11) NOT NULL auto_increment,
-   `name` varchar(100) NOT NULL,
-   `age` int(3) NOT NULL,
-   `email` varchar(100) NOT NULL,
-   PRIMARY KEY  (`id`)
-   );
-   ```
+   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`. Se não estiver familiarizado com o processo de importação, [confira este curso](https://github.com/VILHALVA/CURSO-DE-MYSQL) para orientações detalhadas.
 
 2. **Configuração do PHP:**
-
    - Abra o arquivo `index.php` e ajuste as configurações do banco de dados:
 
      ```php
@@ -80,7 +44,6 @@ unzip CRUD-COM-PHP-E-MYSQL.zip
      ```
 
 3. **Executando o Aplicativo:**
-
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
    - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.php`.
 
