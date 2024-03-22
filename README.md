@@ -40,7 +40,7 @@ Este aplicativo implementa um sistema básico de gerenciamento de usuários com 
      $servidor = "localhost";
      $username = "seu_usuario";
      $usersenha = "sua_senha";
-     $database = "registro";
+     $database = "CRUD";
      ```
 
 3. **Executando o Aplicativo:**
