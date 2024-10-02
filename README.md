@@ -31,21 +31,28 @@ Este aplicativo implementa um sistema básico de gerenciamento de usuários com 
 
 ## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`. 
+   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`.
 
 2. **Configuração do PHP:**
-   - Abra o arquivo `index.php` e ajuste as configurações do banco de dados:
+   - Abra o arquivo `./CODIGO/dbConnection.php` e ajuste as configurações do banco de dados:
 
      ```php
-     $servidor = "localhost";
-     $username = "seu_usuario";
-     $usersenha = "sua_senha";
-     $database = "CRUD";
+      $databaseHost = 'localhost';
+      $databaseName = 'CRUD';
+      $databaseUsername = 'seu_usuario';
+      $databasePassword = 'sua_senha';
      ```
 
-3. **Executando o Aplicativo:**
+3. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.php`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.php).
+
+4. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080](http://localhost:8080).
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
